@@ -9,9 +9,9 @@ import os
 from pathlib import Path
 
 LINE = (
-    "Something went wrong while saving: our server's disk filled up at 3 AM "
-    "and nobody noticed until you did. Your work is safe on this device - "
-    "the cloud just needs a bigger hard drive."
+    "Your file didn't save: our server ran out of disk at 3 AM and nobody "
+    "noticed until you did. Your work is safe on this device - the cloud "
+    "just needs a bigger hard drive."
 )
 
 # Gate self-check: an invalid line can never be written silently.
